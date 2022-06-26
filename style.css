@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    padding: 60px 20px 20px;
+    background-size: contain;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    margin: auto;
+}
+
+.container {
+    background-image: url(./images/illustration-hero.svg);
+    background-color: #fff;
+    border-radius: 15px;
+    max-width: 450px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 18px;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+h1+p {
+    max-width: 300px;
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+.content {
+    margin: 0% 10%;
+    padding: 260px 0 5%;
+}
+
+.content p {
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+    opacity: 0.6;
+    font-size: 1rem;
+}
+
+.payment {
+    background-color: hsla(225, 100%, 94%, 0.4);
+    border-radius: 10px;
+    padding: 20px 10px 0px;
+    display: flex;
+    width: 100%;
+}
+
+.img {
+    margin: 0 15px 0;
+    height: 0;
+}
+
+.plan p {
+    margin-top: 3px;
+    font-size: 1.1em;
+}
+
+.payment a {
+    margin: 18px 0 35px 100px;
+    color: hsl(245, 75%, 52%);
+    font-weight: 900;
+}
+
+h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+button {
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    width: 100%;
+    padding: 4% 7%;
+    box-sizing: border-box;
+    margin: 10% 0;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    box-shadow: 0px 15px 20px 8px hsla(245, 75%, 52%, 0.2);
+}
+
+.order { 
+    font-weight: 900;
+}
+
+button:hover {
+    background-color: hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+
+.order:hover {
+    cursor: pointer;
+    opacity: 1;
+    font-weight: 900;
+}
+
+a:hover {
+    text-decoration: none;
+    opacity: 7;
+}
+
+@media (max-width:375px) {
+    body {
+        background-image: url(./images/pattern-background-mobile.svg);
+    }
+
+    .content {
+        padding-top: 190px;
+    }
+
+    h1+p {
+        max-width: 250px;
+    }
+
+    .img {
+        margin: 0 15px 0 5px;
+    }
+
+    .img {
+        height: 0;
+    }
+
+    .payment a {
+        margin-left: 35px;
+    }
+}
