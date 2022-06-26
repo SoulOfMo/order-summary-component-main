@@ -66,7 +66,8 @@ h1+p {
 
 .plan p {
     margin-top: 3px;
-    font-size: 1.1em;
+    font-size: 1em;
+    font-weight: 500;
 }
 
 .payment a {
@@ -99,7 +100,7 @@ button {
 }
 
 button:hover {
-    background-color: hsl(224, 23%, 55%);
+    background-color: hsla(245, 75%, 52%, 0.8);
     cursor: pointer;
 }
 
@@ -111,7 +112,7 @@ button:hover {
 
 a:hover {
     text-decoration: none;
-    opacity: 7;
+    color: hsla(245, 75%, 52%, 0.7);
 }
 
 @media (max-width:375px) {
